@@ -1,0 +1,2 @@
+- In my experience, I'd usually run the while loop if I don't know how many times the loop with run.
+- The do-while loop will execute at least once even if the condition is not met.
