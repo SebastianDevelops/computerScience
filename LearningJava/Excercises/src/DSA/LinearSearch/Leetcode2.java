@@ -6,10 +6,22 @@ public class Leetcode2 {
     }
 
     public static int maximumWealth(int[][] accounts) {
-        for (int person = 0; person < accounts.length; person++) {
-            for (int account = 0; account < accounts[person].length; account++) {
-                //
+        int maxValue = Integer.MIN_VALUE;
+
+        for(int[] person : accounts)
+        {
+            int sum = 0;
+            for (int account : person) {
+                sum += account;
+            }
+            if(sum > maxValue)
+            {
+                maxValue = sum;
             }
         }
+
+        return maxValue;
     }
+
+
 }
