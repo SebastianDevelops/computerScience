@@ -1,8 +1,8 @@
-package Arrays;
+package DSA.Arrays;
 
 import java.util.Arrays;
 
-import Arrays.Excercise1;
+import DSA.Arrays.Excercise1;
 
 public class Excercise2 {
     public static void main(String[] args) {
