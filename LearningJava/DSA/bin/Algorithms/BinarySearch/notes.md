@@ -11,3 +11,7 @@ When working with binary search, the object needs to be sorted already.
 #### Order-Agnostic Binary Seach
 
 In case we don't know in what order an array is sorted we use Order-Agnostic binary search. To do this we can the first and last to compare them to see which order the object is ascending or descending.
+
+#### Start and end pointer
+
+- Start and end are two pointers that minimizes the search space
