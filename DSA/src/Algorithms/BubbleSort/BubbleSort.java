@@ -5,9 +5,7 @@ import java.util.Arrays;
 public class BubbleSort {
     public static void main(String[] args) {
         int[] arr = { 5, 4, 3, 2, 1 };
-
         bubbleSort(arr);
-
         System.out.println(Arrays.toString(arr));
     }
 
@@ -38,5 +36,18 @@ public class BubbleSort {
                 break;
             }
         }
+    }
+
+    public static int maxIndex(int[] arr)
+    {
+        int max = 0;
+
+        for (int i = 0; i < arr.length; i++) {
+            if(arr[max] < arr[i] )
+            {
+                max = arr[i];
+            }
+        }
+        return max;
     }
 }
