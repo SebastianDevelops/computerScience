@@ -1,4 +1,4 @@
-package SelectionSort;
+package Algorithms.SelectionSort;
 
 public class SelectionSort {
     public static void main(String[] args) {
